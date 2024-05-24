@@ -1,0 +1,10 @@
+#!/bin/bash -l
+#SBATCH --mem=40G
+#SBATCH --ntasks=8
+#SBATCH --qos=normal
+#SBATCH --time=360
+#SBATCH --export=NONE
+#SBATCH --output=SpiceOutput/spice.out
+#SBATCH --error=SpiceOutput/err.out
+conda activate ML_env
+python train_ML_model.py variable

@@ -1,0 +1,7 @@
+name: ML_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - iris=3.7
+  - PyTorch=2.1.0

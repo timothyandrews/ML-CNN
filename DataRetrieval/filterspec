@@ -1,0 +1,12 @@
+begin
+  stash=(24,31,1201,1207,1208,1209,1210,1211,1235,2201,2204,2205,2206,2207,2208)
+  T1>={startyear/01/01}
+  T2<={endyear/01/01}
+  LBTIM=122
+end
+begin
+  stash=3236
+  T1>={startyear/01/01}
+  T2<={endyear/01/01}
+  LBTIM=622
+end
