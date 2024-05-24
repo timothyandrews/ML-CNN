@@ -6,13 +6,11 @@ Note this code was developed to aid our personal introduction into ML. We're not
 
 Note also that this code is mostly set up to be used with computing architecture used within the Met Office like SPICE. Outside, you'll have to adapt the scripts to run on your own architecture.
 
-Tim Andrews & Harry Mutton
+__Tim Andrews & Harry Mutton__  
+Met Office Hadley Centre.  
+May 2024.  
 
-Met Office Hadley Centre.
-
-May 2024.
-
-_Acknowledgements_: a round of applause to Philip Brohan and Mark Webb for many useful discussions along our ML journey.
+__Acknowledgements__: a round of applause to Philip Brohan and Mark Webb for many useful discussions along our ML journey.
 
 ## Instructions
 
