@@ -96,6 +96,8 @@ Here is a loss plot, the global-monthly mean timeseries and mean geographical cl
 
 ![Loss Plot](https://github.com/timothyandrews/ML-CNN/blob/main/Fig_loss_plot.png)
 ![Seasonal Cyle](https://github.com/timothyandrews/ML-CNN/blob/main/Fig_Validation_dNETcre.png)
+
+
 ![Geographical](https://github.com/timothyandrews/ML-CNN/blob/main/Fig_Validation_Regional_dNETcre.pdf)
 
 
