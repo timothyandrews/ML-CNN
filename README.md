@@ -100,7 +100,7 @@ Here is the validation of the global-monthly mean timeseries and mean geographic
 ![Seasonal Cyle](https://github.com/timothyandrews/ML-CNN/blob/main/Fig_Validation_dNETcre.png)
 
 
-![Geographical](https://github.com/timothyandrews/ML-CNN/blob/main/Fig_Validation_Regional_dNETcre.pdf)
+![Geographical](https://github.com/timothyandrews/ML-CNN/blob/main/Fig_Validation_Regional_dNETcre.png)
 
 
 ### 6. Enjoy
