@@ -92,6 +92,7 @@ There are a few steps, converting between `tensors` and `numpy arrays`, and undo
 
 The figures from the validation step are sent to `../Output/'+var+'/Figures/`
 
-## License
 
-This code is made available under the terms of the [Non-Commercial Government Licence](https://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/).
+### 6. Enjoy
+
+It seems to work well for seasonal cycle and climatology. We've had mixed success on cloud feedback and EEI trends. Part of the issue might be non-linear extrapolation, i.e. under a changing climate with a strong trend we immediately take the ML model into untrained terrority when using the past as training and present as validation.
