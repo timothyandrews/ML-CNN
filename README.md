@@ -32,6 +32,13 @@ Activate the `conda` environment:
 $ conda activate ML_env
 ```
 
+Note that the following dependencies are required:
+
+- `python=3.12`
+- `iris=3.7`
+- `PyTorch=2.1.0`
+
+
 ### 3. Data
 
 Input is a monthly timeseries of 2D (lat,lon) `net TOA radiation`, `cloud radiative effect` and `surface-air-temperature`. These can in principal be changed to whatever you want with a couple of small changes to the code.
