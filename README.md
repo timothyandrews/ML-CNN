@@ -1,4 +1,4 @@
-# ML - Convolution Neural Net
+# ML - Convolutional Neural Net
 
 This repo contains code to apply a machine learning CNN to climate data. The ML  model is trained on monthly 2D radiative fluxes and surface temperature as simulated by HadGEM3-GC3.1-LL, learning the relationship between these quantities. The seasonal cycle and geographical climatologies of net TOA radiative flux and cloud radiatve effect are then well produced by the ML model from surface temperature inputs alone.
 
@@ -38,7 +38,7 @@ Input is a monthly timeseries of 2D (lat,lon) `net TOA radiation`, `cloud radiat
 
 * If within the Met Office there are some scripts in the `DataRetrieval` folder that can be sent to SPICE that retrieves data from MASS, then processes the required fields into a single `.nc` file. It is currently set up to retrieve and process surface tempeature and radiation fields from an `amip-piForcing` run with `HadGEM3-GC3.1-LL` covering 1871-2019. Simply execute `$ sbatch toplevel_retrieval.sh` to retrieve the data, then once finished process it with `$ sbatch top_level_process_data.sh`.
 
-* If outsied the Met Office, then you'll need to process this bit yourself, which would be pretty straight forward with CMIP6 data or anything else. In `CMIP6` parlance net TOA radiation is given by `N = rsdt - rlut -rsut` and net cloud radiative effect `NETcre = (rlutcs - rlut) + (rsutcs -rsut)`. Surface-air-temperature is `tas`. `piControl` AOGCM data would work well I suspect.
+* If outside the Met Office, then you'll need to process this bit yourself, which would be pretty straight forward with CMIP6 data or anything else. In `CMIP6` parlance net TOA radiation is given by `N = rsdt - rlut -rsut` and net cloud radiative effect `NETcre = (rlutcs - rlut) + (rsutcs -rsut)`. Surface-air-temperature is `tas`. `piControl` AOGCM data would work well I suspect.
 
 ### 4. Train the ML model
 
